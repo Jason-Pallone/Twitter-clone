@@ -1,3 +1,7 @@
+I developed this project so I can learn Tailwind, TypeScript and Next.js. I have plenty of experience with React, but I love to learn and wanted to dive into these new technologies! 
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
