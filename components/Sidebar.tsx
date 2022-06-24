@@ -15,7 +15,7 @@ import SideBarRow from "./SidebarRow";
 
 function SideBar() {
   return (
-    <div className="flex flex-col col-span-2">
+    <div className="flex flex-col col-span-2 items-center px-4 md:items-start">
       <Image 
         src={twitterIcon}
         alt="twitter icon"
