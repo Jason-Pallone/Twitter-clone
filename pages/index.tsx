@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import SideBar from '../components/Sidebar'
 import Feed from '../components/Feed'
+import Widgets from '../components/Widgets'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,9 +14,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
  
-      <main>
+      <main className='grid grid-cols-9'>
        <SideBar />
+
        <Feed />
+       
+       <Widgets />
       </main>
     </div>
   )
