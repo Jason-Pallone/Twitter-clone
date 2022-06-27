@@ -24,3 +24,13 @@ export default function Home() {
     </div>
   )
 }
+
+export const getServerSideProps: GetserverSideProps = async (context) => {
+  const tweets = await fetchTweets();
+  
+  return {
+    props: {
+
+    }
+  }
+}
